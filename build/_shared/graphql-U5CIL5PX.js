@@ -1,1 +1,1 @@
-import{a}from"/build/_shared/chunk-MIIU55BQ.js";import"/build/_shared/chunk-OZE3FFNP.js";export default a();
+import{a}from"/Cours_Stats-site/build/_shared/chunk-MIIU55BQ.js";import"/Cours_Stats-site/build/_shared/chunk-OZE3FFNP.js";export default a();
