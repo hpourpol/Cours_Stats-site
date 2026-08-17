@@ -42,3 +42,7 @@ table td {
   padding: 0;
   margin-bottom: 0.5rem;
 }
+
+.admonition.exemple .admonition-title::before {
+  display: none;
+}
