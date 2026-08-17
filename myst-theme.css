@@ -30,8 +30,8 @@ table td {
 
 .exemple .myst-admonition-header {
   background-color: transparent !important;
-  color: #E8A33D !important;
-  border-left: 4px solid #E8A33D;
+  color: #2563EB !important;
+  border-left: 4px solid #2563EB;
   padding-left: 0.75rem;
   font-weight: bold;
 }
