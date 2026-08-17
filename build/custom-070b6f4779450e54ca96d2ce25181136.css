@@ -28,10 +28,14 @@ table td {
 
 .exemple .myst-admonition-header {
   background-color: transparent !important;
-  color: inherit !important;
+  color: #E8A33D !important;
   border-left: 4px solid #E8A33D;
   padding-left: 0.75rem;
   font-weight: bold;
+}
+
+.exemple .myst-admonition-header svg {
+  display: none !important;
 }
 
 .exemple {
