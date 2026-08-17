@@ -25,3 +25,20 @@ table td {
   padding: 6px 10px;
   text-align: center;
 }
+
+.admonition.exemple {
+  background-color: transparent;
+  border: none;
+  border-left: 4px solid #E8A33D;
+  border-radius: 0;
+  padding-left: 1rem;
+  box-shadow: none;
+}
+
+.admonition.exemple .admonition-title {
+  background-color: transparent;
+  color: inherit;
+  font-weight: bold;
+  padding: 0;
+  margin-bottom: 0.5rem;
+}
