@@ -36,10 +36,11 @@ table td {
 }
 
 .exemple .myst-admonition-header {
-  background-color: transparent !important;
+  background-color: #EFF6FF !important;
   color: #1D4ED8 !important;
   font-weight: bold;
-  padding-left: 0;
+  padding: 0.5rem 0.75rem;
+  margin-left: -0.75rem;
 }
 
 .exemple .myst-admonition-header svg {
