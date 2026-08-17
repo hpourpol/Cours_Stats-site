@@ -26,23 +26,17 @@ table td {
   text-align: center;
 }
 
-.admonition.exemple {
-  background-color: transparent;
-  border: none;
+.exemple .myst-admonition-header {
+  background-color: transparent !important;
+  color: inherit !important;
   border-left: 4px solid #E8A33D;
-  border-radius: 0;
-  padding-left: 1rem;
-  box-shadow: none;
-}
-
-.admonition.exemple .admonition-title {
-  background-color: transparent;
-  color: inherit;
+  padding-left: 0.75rem;
   font-weight: bold;
-  padding: 0;
-  margin-bottom: 0.5rem;
 }
 
-.admonition.exemple .admonition-title::before {
-  display: none;
+.exemple {
+  border: none !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
 }
