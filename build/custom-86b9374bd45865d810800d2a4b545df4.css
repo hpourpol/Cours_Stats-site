@@ -46,3 +46,25 @@ table td {
 .exemple .myst-admonition-header svg {
   display: none !important;
 }
+
+
+.exercice {
+  border: none !important;
+  border-left: 4px solid #EF4444 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  padding-left: 0.75rem;
+}
+
+.exercice .myst-admonition-header {
+  background-color: #EFF6FF !important;
+  color: #EF4444 !important;
+  font-weight: bold;
+  padding: 0.5rem 0.75rem;
+  margin-left: -0.75rem;
+}
+
+.exercice .myst-admonition-header svg {
+  display: none !important;
+}
