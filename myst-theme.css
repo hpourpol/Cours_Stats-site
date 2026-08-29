@@ -73,9 +73,9 @@ table td {
 
 .solution {
   border: none !important;
-  border-left: 4px solid #1D4ED8 !important;
+  border-left: 4px solid #F59E0B !important;
   box-shadow: none !important;
-  background-color: transparent !important;
+  background-color: #FFFBEB !important;
   border-radius: 0 !important;
   padding-left: 0.75rem;
 }
@@ -84,7 +84,7 @@ table td {
   list-style: none;
   cursor: pointer;
   font-weight: bold;
-  color: #1D4ED8;
+  color: #92400E;
   background-color: transparent !important;
   padding: 0.5rem 0.75rem;
   margin-left: -0.75rem;
@@ -105,7 +105,7 @@ table td {
 .solution summary::after {
   content: "Cliquer pour afficher ›";
   font-weight: normal;
-  color: #1D4ED8;
+  color: #92400E;
 }
 
 .solution[open] summary::after {
