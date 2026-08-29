@@ -68,3 +68,36 @@ table td {
 .exercice .myst-admonition-header svg {
   display: none !important;
 }
+
+.solution {
+  border: none !important;
+  border-left: 4px solid #1D4ED8 !important;
+  box-shadow: none !important;
+  background-color: transparent !important;
+  border-radius: 0 !important;
+  padding-left: 0.75rem;
+}
+
+.solution summary {
+  font-weight: bold;
+  color: #1D4ED8;
+  cursor: pointer;
+  list-style: none;
+  padding: 0.5rem 0.75rem;
+  margin-left: -0.75rem;
+}
+
+.solution summary::-webkit-details-marker {
+  display: none;
+}
+
+.solution summary::after {
+  content: "Cliquer pour afficher ›";
+  float: right;
+  font-weight: normal;
+  color: #1D4ED8;
+}
+
+.solution[open] summary::after {
+  content: "Cliquer pour masquer ⌄";
+}
