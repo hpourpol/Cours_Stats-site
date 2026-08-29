@@ -81,21 +81,29 @@ table td {
 }
 
 .solution summary {
+  list-style: none;
+  cursor: pointer;
   font-weight: bold;
   color: #1D4ED8;
-  cursor: pointer;
-  list-style: none;
+  background-color: transparent !important;
   padding: 0.5rem 0.75rem;
   margin-left: -0.75rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
 }
 
 .solution summary::-webkit-details-marker {
-  display: none;
+  display: none !important;
+}
+
+.solution summary svg,
+.solution summary::before {
+  display: none !important;
 }
 
 .solution summary::after {
   content: "Cliquer pour afficher ›";
-  float: right;
   font-weight: normal;
   color: #1D4ED8;
 }
