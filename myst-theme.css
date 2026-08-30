@@ -20,6 +20,10 @@
   display: none !important;
 }
 
+.myst-fm-launch-button {
+  display: none !important;
+}
+
 table {
   border-collapse: collapse;
   width: 100%;
