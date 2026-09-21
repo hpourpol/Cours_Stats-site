@@ -7,4 +7,7 @@
   <url>
     <loc>http://localhost:3000/a3team-probas</loc>
   </url>
+  <url>
+    <loc>http://localhost:3000/a3team-estimation</loc>
+  </url>
 </urlset>
